@@ -17,6 +17,7 @@ html, body{
 }
 
 .content{
+  max-width: 500px;
   padding: 5em;
   border-radius: 50%;
   background-color:	#DAA520;
@@ -41,6 +42,7 @@ html, body{
 }
 
 .buttons button{
+  min-width: 50px;
   width: 8vw;
   height: 5vh;
 }
