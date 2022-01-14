@@ -11,15 +11,15 @@
   <section class="content">
     <div class="container">
       <div class="text-content">
-        <h1><span id="horas">00</span>:</h1>
-        <h1><span id="minutos">00</span>.</h1>
-        <h1><span id="segundos">00</span>s</h1>
+        <h1><span id="minutos">00</span>:</h1>
+        <h1><span id="segundos">00</span>.</h1>
+        <h1><span id="milissegundos">00</span>s</h1>
       </div><!--text-content-->
 
       <div class="buttons">
-        <input type="button" value="start" id="start">
-        <input type="button" value="stop" id="stop">
-        <input type="button" value="restart" id="restart">
+        <button id="start" onclick="botaoComecar()">start</button>
+        <button id="stop" disabled onclick="botaoParar()">stop</button>
+        <button id="restart" disabled onclick="botaoZerar()">restart</button>
       </div><!--buttons-->
     </div><!--container-->
   </section><!--content-->
